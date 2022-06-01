@@ -13,6 +13,26 @@
 		64476ADE28465A6C00E90755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64476ADC28465A6C00E90755 /* Main.storyboard */; };
 		64476AE028465A7B00E90755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64476ADF28465A7B00E90755 /* Assets.xcassets */; };
 		64476AE328465A7B00E90755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64476AE128465A7B00E90755 /* LaunchScreen.storyboard */; };
+		64476AEB28465BFA00E90755 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476AEA28465BFA00E90755 /* RegisterVC.swift */; };
+		64476AED28465C2200E90755 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476AEC28465C2200E90755 /* BaseVC.swift */; };
+		64476AF12846777700E90755 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476AF02846777700E90755 /* FormTextField.swift */; };
+		64476AF5284677EF00E90755 /* FormFieldPlaceholderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476AF2284677EB00E90755 /* FormFieldPlaceholderMode.swift */; };
+		64476AF6284677EF00E90755 /* FormFieldPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476AF3284677EC00E90755 /* FormFieldPlaceholderView.swift */; };
+		64476AF7284677EF00E90755 /* FormFieldUnderneathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476AF4284677EE00E90755 /* FormFieldUnderneathView.swift */; };
+		64476AFA2846788600E90755 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476AF82846788300E90755 /* Array+Extension.swift */; };
+		64476AFB2846788600E90755 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476AF92846788500E90755 /* String+Extension.swift */; };
+		64476B032846792700E90755 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B002846792400E90755 /* UIFont+Extension.swift */; };
+		64476B042846792700E90755 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B012846792500E90755 /* UIImage+Extension.swift */; };
+		64476B052846792700E90755 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B022846792700E90755 /* UIColor+Extension.swift */; };
+		64476B0728467A3E00E90755 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B0628467A3D00E90755 /* Constants.swift */; };
+		64476B0A28467A9900E90755 /* FormFieldTextPaddingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B0928467A9800E90755 /* FormFieldTextPaddingMode.swift */; };
+		64476B0C2846DBF100E90755 /* FormPasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B0B2846DBF000E90755 /* FormPasswordField.swift */; };
+		64476B0E2847BE5D00E90755 /* BaseFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B0D2847BE5D00E90755 /* BaseFormVC.swift */; };
+		64476B102847EF8E00E90755 /* FormMobileField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B0F2847EF8E00E90755 /* FormMobileField.swift */; };
+		64476B122847F1B600E90755 /* FormSelectField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B112847F1B600E90755 /* FormSelectField.swift */; };
+		64476B142847F22600E90755 /* DialCodeSelectField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B132847F22600E90755 /* DialCodeSelectField.swift */; };
+		64476B162847F2ED00E90755 /* NationalNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B152847F2ED00E90755 /* NationalNumberField.swift */; };
+		64476B1828481EF700E90755 /* RegisterFormStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B1728481EF600E90755 /* RegisterFormStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		64476ADF28465A7B00E90755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64476AE228465A7B00E90755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64476AE428465A7B00E90755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64476AEA28465BFA00E90755 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		64476AEC28465C2200E90755 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		64476AF02846777700E90755 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		64476AF2284677EB00E90755 /* FormFieldPlaceholderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormFieldPlaceholderMode.swift; sourceTree = "<group>"; };
+		64476AF3284677EC00E90755 /* FormFieldPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormFieldPlaceholderView.swift; sourceTree = "<group>"; };
+		64476AF4284677EE00E90755 /* FormFieldUnderneathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormFieldUnderneathView.swift; sourceTree = "<group>"; };
+		64476AF82846788300E90755 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		64476AF92846788500E90755 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		64476B002846792400E90755 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		64476B012846792500E90755 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		64476B022846792700E90755 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		64476B0628467A3D00E90755 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		64476B0928467A9800E90755 /* FormFieldTextPaddingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormFieldTextPaddingMode.swift; sourceTree = "<group>"; };
+		64476B0B2846DBF000E90755 /* FormPasswordField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormPasswordField.swift; sourceTree = "<group>"; };
+		64476B0D2847BE5D00E90755 /* BaseFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFormVC.swift; sourceTree = "<group>"; };
+		64476B0F2847EF8E00E90755 /* FormMobileField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormMobileField.swift; sourceTree = "<group>"; };
+		64476B112847F1B600E90755 /* FormSelectField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSelectField.swift; sourceTree = "<group>"; };
+		64476B132847F22600E90755 /* DialCodeSelectField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialCodeSelectField.swift; sourceTree = "<group>"; };
+		64476B152847F2ED00E90755 /* NationalNumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalNumberField.swift; sourceTree = "<group>"; };
+		64476B1728481EF600E90755 /* RegisterFormStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +98,57 @@
 			children = (
 				64476AD628465A6C00E90755 /* AppDelegate.swift */,
 				64476AD828465A6C00E90755 /* SceneDelegate.swift */,
-				64476ADA28465A6C00E90755 /* ViewController.swift */,
+				64476AEE284676FB00E90755 /* Controllers */,
+				64476AEF2846772A00E90755 /* ViewClasses */,
+				64476B0828467A4800E90755 /* Extensions */,
+				64476B0628467A3D00E90755 /* Constants.swift */,
 				64476ADC28465A6C00E90755 /* Main.storyboard */,
 				64476ADF28465A7B00E90755 /* Assets.xcassets */,
 				64476AE128465A7B00E90755 /* LaunchScreen.storyboard */,
 				64476AE428465A7B00E90755 /* Info.plist */,
 			);
 			path = "WEB-JOBS-Task-052022";
+			sourceTree = "<group>";
+		};
+		64476AEE284676FB00E90755 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64476ADA28465A6C00E90755 /* ViewController.swift */,
+				64476AEC28465C2200E90755 /* BaseVC.swift */,
+				64476B0D2847BE5D00E90755 /* BaseFormVC.swift */,
+				64476AEA28465BFA00E90755 /* RegisterVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		64476AEF2846772A00E90755 /* ViewClasses */ = {
+			isa = PBXGroup;
+			children = (
+				64476B1728481EF600E90755 /* RegisterFormStackView.swift */,
+				64476AF02846777700E90755 /* FormTextField.swift */,
+				64476B0B2846DBF000E90755 /* FormPasswordField.swift */,
+				64476AF3284677EC00E90755 /* FormFieldPlaceholderView.swift */,
+				64476AF2284677EB00E90755 /* FormFieldPlaceholderMode.swift */,
+				64476AF4284677EE00E90755 /* FormFieldUnderneathView.swift */,
+				64476B0928467A9800E90755 /* FormFieldTextPaddingMode.swift */,
+				64476B0F2847EF8E00E90755 /* FormMobileField.swift */,
+				64476B112847F1B600E90755 /* FormSelectField.swift */,
+				64476B132847F22600E90755 /* DialCodeSelectField.swift */,
+				64476B152847F2ED00E90755 /* NationalNumberField.swift */,
+			);
+			path = ViewClasses;
+			sourceTree = "<group>";
+		};
+		64476B0828467A4800E90755 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64476AF82846788300E90755 /* Array+Extension.swift */,
+				64476AF92846788500E90755 /* String+Extension.swift */,
+				64476B022846792700E90755 /* UIColor+Extension.swift */,
+				64476B002846792400E90755 /* UIFont+Extension.swift */,
+				64476B012846792500E90755 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +223,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				64476ADB28465A6C00E90755 /* ViewController.swift in Sources */,
+				64476B042846792700E90755 /* UIImage+Extension.swift in Sources */,
+				64476B0A28467A9900E90755 /* FormFieldTextPaddingMode.swift in Sources */,
+				64476B102847EF8E00E90755 /* FormMobileField.swift in Sources */,
+				64476B122847F1B600E90755 /* FormSelectField.swift in Sources */,
+				64476AFB2846788600E90755 /* String+Extension.swift in Sources */,
+				64476AFA2846788600E90755 /* Array+Extension.swift in Sources */,
+				64476AF12846777700E90755 /* FormTextField.swift in Sources */,
+				64476B0728467A3E00E90755 /* Constants.swift in Sources */,
+				64476B0C2846DBF100E90755 /* FormPasswordField.swift in Sources */,
+				64476AEB28465BFA00E90755 /* RegisterVC.swift in Sources */,
 				64476AD728465A6C00E90755 /* AppDelegate.swift in Sources */,
+				64476B1828481EF700E90755 /* RegisterFormStackView.swift in Sources */,
+				64476AF5284677EF00E90755 /* FormFieldPlaceholderMode.swift in Sources */,
 				64476AD928465A6C00E90755 /* SceneDelegate.swift in Sources */,
+				64476B052846792700E90755 /* UIColor+Extension.swift in Sources */,
+				64476B0E2847BE5D00E90755 /* BaseFormVC.swift in Sources */,
+				64476AED28465C2200E90755 /* BaseVC.swift in Sources */,
+				64476B162847F2ED00E90755 /* NationalNumberField.swift in Sources */,
+				64476AF7284677EF00E90755 /* FormFieldUnderneathView.swift in Sources */,
+				64476B142847F22600E90755 /* DialCodeSelectField.swift in Sources */,
+				64476B032846792700E90755 /* UIFont+Extension.swift in Sources */,
+				64476AF6284677EF00E90755 /* FormFieldPlaceholderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
