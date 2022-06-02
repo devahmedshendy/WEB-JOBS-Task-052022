@@ -33,6 +33,15 @@
 		64476B142847F22600E90755 /* DialCodeSelectField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B132847F22600E90755 /* DialCodeSelectField.swift */; };
 		64476B162847F2ED00E90755 /* NationalNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B152847F2ED00E90755 /* NationalNumberField.swift */; };
 		64476B1828481EF700E90755 /* RegisterFormStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B1728481EF600E90755 /* RegisterFormStackView.swift */; };
+		64476B1A2848CD6200E90755 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B192848CD6200E90755 /* TabBarController.swift */; };
+		64476B1C2848F7E000E90755 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B1B2848F7DF00E90755 /* HomeVC.swift */; };
+		64476B232848FBD800E90755 /* TwoRowProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B222848FBD800E90755 /* TwoRowProductCell.swift */; };
+		64476B262849017900E90755 /* ProductDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B252849017900E90755 /* ProductDto.swift */; };
+		64476B282849038300E90755 /* ProductSectionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B272849038200E90755 /* ProductSectionDto.swift */; };
+		64476B2B284905D100E90755 /* ProductsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B29284905D000E90755 /* ProductsSectionView.swift */; };
+		64476B2C284905D100E90755 /* ProductsSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64476B2A284905D100E90755 /* ProductsSectionView.xib */; };
+		64476B2E284948E800E90755 /* AddProductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B2D284948E800E90755 /* AddProductButton.swift */; };
+		64476B302849501700E90755 /* ProductDiscountPadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B2F2849501700E90755 /* ProductDiscountPadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +73,15 @@
 		64476B132847F22600E90755 /* DialCodeSelectField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialCodeSelectField.swift; sourceTree = "<group>"; };
 		64476B152847F2ED00E90755 /* NationalNumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalNumberField.swift; sourceTree = "<group>"; };
 		64476B1728481EF600E90755 /* RegisterFormStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormStackView.swift; sourceTree = "<group>"; };
+		64476B192848CD6200E90755 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		64476B1B2848F7DF00E90755 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		64476B222848FBD800E90755 /* TwoRowProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoRowProductCell.swift; sourceTree = "<group>"; };
+		64476B252849017900E90755 /* ProductDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDto.swift; sourceTree = "<group>"; };
+		64476B272849038200E90755 /* ProductSectionDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSectionDto.swift; sourceTree = "<group>"; };
+		64476B29284905D000E90755 /* ProductsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsSectionView.swift; sourceTree = "<group>"; };
+		64476B2A284905D100E90755 /* ProductsSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsSectionView.xib; sourceTree = "<group>"; };
+		64476B2D284948E800E90755 /* AddProductButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductButton.swift; sourceTree = "<group>"; };
+		64476B2F2849501700E90755 /* ProductDiscountPadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDiscountPadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +116,8 @@
 			children = (
 				64476AD628465A6C00E90755 /* AppDelegate.swift */,
 				64476AD828465A6C00E90755 /* SceneDelegate.swift */,
+				64476B242849015400E90755 /* Models */,
+				64476B212848FBA800E90755 /* Cells */,
 				64476AEE284676FB00E90755 /* Controllers */,
 				64476AEF2846772A00E90755 /* ViewClasses */,
 				64476B0828467A4800E90755 /* Extensions */,
@@ -116,7 +136,9 @@
 				64476ADA28465A6C00E90755 /* ViewController.swift */,
 				64476AEC28465C2200E90755 /* BaseVC.swift */,
 				64476B0D2847BE5D00E90755 /* BaseFormVC.swift */,
+				64476B192848CD6200E90755 /* TabBarController.swift */,
 				64476AEA28465BFA00E90755 /* RegisterVC.swift */,
+				64476B1B2848F7DF00E90755 /* HomeVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,6 +157,8 @@
 				64476B112847F1B600E90755 /* FormSelectField.swift */,
 				64476B132847F22600E90755 /* DialCodeSelectField.swift */,
 				64476B152847F2ED00E90755 /* NationalNumberField.swift */,
+				64476B2D284948E800E90755 /* AddProductButton.swift */,
+				64476B2F2849501700E90755 /* ProductDiscountPadge.swift */,
 			);
 			path = ViewClasses;
 			sourceTree = "<group>";
@@ -149,6 +173,25 @@
 				64476B012846792500E90755 /* UIImage+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64476B212848FBA800E90755 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				64476B222848FBD800E90755 /* TwoRowProductCell.swift */,
+				64476B29284905D000E90755 /* ProductsSectionView.swift */,
+				64476B2A284905D100E90755 /* ProductsSectionView.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		64476B242849015400E90755 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64476B252849017900E90755 /* ProductDto.swift */,
+				64476B272849038200E90755 /* ProductSectionDto.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64476B2C284905D100E90755 /* ProductsSectionView.xib in Resources */,
 				64476AE328465A7B00E90755 /* LaunchScreen.storyboard in Resources */,
 				64476AE028465A7B00E90755 /* Assets.xcassets in Resources */,
 				64476ADE28465A6C00E90755 /* Main.storyboard in Resources */,
@@ -226,11 +270,16 @@
 				64476B042846792700E90755 /* UIImage+Extension.swift in Sources */,
 				64476B0A28467A9900E90755 /* FormFieldTextPaddingMode.swift in Sources */,
 				64476B102847EF8E00E90755 /* FormMobileField.swift in Sources */,
+				64476B2B284905D100E90755 /* ProductsSectionView.swift in Sources */,
+				64476B302849501700E90755 /* ProductDiscountPadge.swift in Sources */,
 				64476B122847F1B600E90755 /* FormSelectField.swift in Sources */,
 				64476AFB2846788600E90755 /* String+Extension.swift in Sources */,
 				64476AFA2846788600E90755 /* Array+Extension.swift in Sources */,
 				64476AF12846777700E90755 /* FormTextField.swift in Sources */,
 				64476B0728467A3E00E90755 /* Constants.swift in Sources */,
+				64476B282849038300E90755 /* ProductSectionDto.swift in Sources */,
+				64476B1A2848CD6200E90755 /* TabBarController.swift in Sources */,
+				64476B262849017900E90755 /* ProductDto.swift in Sources */,
 				64476B0C2846DBF100E90755 /* FormPasswordField.swift in Sources */,
 				64476AEB28465BFA00E90755 /* RegisterVC.swift in Sources */,
 				64476AD728465A6C00E90755 /* AppDelegate.swift in Sources */,
@@ -242,9 +291,12 @@
 				64476AED28465C2200E90755 /* BaseVC.swift in Sources */,
 				64476B162847F2ED00E90755 /* NationalNumberField.swift in Sources */,
 				64476AF7284677EF00E90755 /* FormFieldUnderneathView.swift in Sources */,
+				64476B232848FBD800E90755 /* TwoRowProductCell.swift in Sources */,
+				64476B1C2848F7E000E90755 /* HomeVC.swift in Sources */,
 				64476B142847F22600E90755 /* DialCodeSelectField.swift in Sources */,
 				64476B032846792700E90755 /* UIFont+Extension.swift in Sources */,
 				64476AF6284677EF00E90755 /* FormFieldPlaceholderView.swift in Sources */,
+				64476B2E284948E800E90755 /* AddProductButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +452,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

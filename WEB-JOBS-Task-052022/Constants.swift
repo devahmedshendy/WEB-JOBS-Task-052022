@@ -14,3 +14,8 @@ var _formInputUnselectedColor: UIColor { .init("FormInputUnselected") }
 var _formPlaceholderColor: UIColor { .init("FormPlaceholder") }
 var _formUnderlineMiddleColor: UIColor { .init("FormUnderlineMiddle") }
 var _dangerColor: UIColor { .init("Danger") }
+var _productsSectionNameColor: UIColor { .init("ProductsSectionName") }
+var _addProductBtnBorderColor: UIColor { .init("AddProductBtnBorder") }
+var _addProductBtnTitleColor: UIColor { .init("AddProductBtnTitle") }
+var _productPadgeBackBackgroundColor: UIColor { .init("ProductPadgeBackBackground") }
+var _productPadgeFrontBackgroundColor: UIColor { .init("ProductPadgeFrontBackground") }
