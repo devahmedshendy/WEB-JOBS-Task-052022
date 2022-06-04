@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class ProductDiscountPadge: UIView {
     
     var value: Int = 30 {

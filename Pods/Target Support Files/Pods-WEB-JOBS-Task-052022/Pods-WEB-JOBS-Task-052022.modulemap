@@ -1,0 +1,6 @@
+framework module Pods_WEB_JOBS_Task_052022 {
+  umbrella header "Pods-WEB-JOBS-Task-052022-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -50,9 +50,14 @@
 		64476B60284AE35800E90755 /* SortByFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B5F284AE35800E90755 /* SortByFilterButton.swift */; };
 		64476B62284AED1500E90755 /* FilterModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B61284AED1500E90755 /* FilterModalVC.swift */; };
 		64476B84284B335A00E90755 /* WEBJOBSSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B83284B335A00E90755 /* WEBJOBSSpinner.swift */; };
+		6474FAEF284BD56E00EE841E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474FAEE284BD56E00EE841E /* LoginVC.swift */; };
+		F2BA0B17E39CFBD3D0B154A5 /* Pods_WEB_JOBS_Task_052022.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A69E17A40E9D231FD94D2D /* Pods_WEB_JOBS_Task_052022.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30E04F64D945CBEA4523DEFA /* Pods-WEB-JOBS-Task-052022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEB-JOBS-Task-052022.debug.xcconfig"; path = "Target Support Files/Pods-WEB-JOBS-Task-052022/Pods-WEB-JOBS-Task-052022.debug.xcconfig"; sourceTree = "<group>"; };
+		36A69E17A40E9D231FD94D2D /* Pods_WEB_JOBS_Task_052022.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WEB_JOBS_Task_052022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F843CDFDB6D6CF42C311523 /* Pods-WEB-JOBS-Task-052022.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEB-JOBS-Task-052022.release.xcconfig"; path = "Target Support Files/Pods-WEB-JOBS-Task-052022/Pods-WEB-JOBS-Task-052022.release.xcconfig"; sourceTree = "<group>"; };
 		64476AD328465A6C00E90755 /* WEB-JOBS-Task-052022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WEB-JOBS-Task-052022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64476AD628465A6C00E90755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64476AD828465A6C00E90755 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +103,7 @@
 		64476B5F284AE35800E90755 /* SortByFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortByFilterButton.swift; sourceTree = "<group>"; };
 		64476B61284AED1500E90755 /* FilterModalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModalVC.swift; sourceTree = "<group>"; };
 		64476B83284B335A00E90755 /* WEBJOBSSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEBJOBSSpinner.swift; sourceTree = "<group>"; };
+		6474FAEE284BD56E00EE841E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BA0B17E39CFBD3D0B154A5 /* Pods_WEB_JOBS_Task_052022.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +123,8 @@
 			children = (
 				64476AD528465A6C00E90755 /* WEB-JOBS-Task-052022 */,
 				64476AD428465A6C00E90755 /* Products */,
+				F9B3C2076073379A1E5A62C8 /* Pods */,
+				A176C6C2B4C948ABA98BDE34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +163,7 @@
 				64476B0D2847BE5D00E90755 /* BaseFormVC.swift */,
 				64476B192848CD6200E90755 /* TabBarController.swift */,
 				64476AEA28465BFA00E90755 /* RegisterVC.swift */,
+				6474FAEE284BD56E00EE841E /* LoginVC.swift */,
 				64476B1B2848F7DF00E90755 /* HomeVC.swift */,
 				64476B5D284AE0D800E90755 /* FilterVC.swift */,
 				64476B61284AED1500E90755 /* FilterModalVC.swift */,
@@ -218,6 +228,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A176C6C2B4C948ABA98BDE34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36A69E17A40E9D231FD94D2D /* Pods_WEB_JOBS_Task_052022.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9B3C2076073379A1E5A62C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30E04F64D945CBEA4523DEFA /* Pods-WEB-JOBS-Task-052022.debug.xcconfig */,
+				5F843CDFDB6D6CF42C311523 /* Pods-WEB-JOBS-Task-052022.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64476AE728465A7B00E90755 /* Build configuration list for PBXNativeTarget "WEB-JOBS-Task-052022" */;
 			buildPhases = (
+				2FEC551873328B30BD5EAF1D /* [CP] Check Pods Manifest.lock */,
 				64476ACF28465A6C00E90755 /* Sources */,
 				64476AD028465A6C00E90755 /* Frameworks */,
 				64476AD128465A6C00E90755 /* Resources */,
+				5A82BF9AF5C1C9B1E77C15B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +314,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FEC551873328B30BD5EAF1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WEB-JOBS-Task-052022-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A82BF9AF5C1C9B1E77C15B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEB-JOBS-Task-052022/Pods-WEB-JOBS-Task-052022-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEB-JOBS-Task-052022/Pods-WEB-JOBS-Task-052022-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WEB-JOBS-Task-052022/Pods-WEB-JOBS-Task-052022-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64476ACF28465A6C00E90755 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -324,6 +395,7 @@
 				64476B3228498DA800E90755 /* ShowResultsButtonContainer.swift in Sources */,
 				64476B62284AED1500E90755 /* FilterModalVC.swift in Sources */,
 				64476B1C2848F7E000E90755 /* HomeVC.swift in Sources */,
+				6474FAEF284BD56E00EE841E /* LoginVC.swift in Sources */,
 				64476B84284B335A00E90755 /* WEBJOBSSpinner.swift in Sources */,
 				64476B142847F22600E90755 /* DialCodeSelectField.swift in Sources */,
 				64476B032846792700E90755 /* UIFont+Extension.swift in Sources */,
@@ -472,6 +544,7 @@
 		};
 		64476AE828465A7B00E90755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E04F64D945CBEA4523DEFA /* Pods-WEB-JOBS-Task-052022.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -485,6 +558,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,6 +574,7 @@
 		};
 		64476AE928465A7B00E90755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F843CDFDB6D6CF42C311523 /* Pods-WEB-JOBS-Task-052022.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -513,6 +588,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

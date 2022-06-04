@@ -21,3 +21,7 @@ var _productPadgeBackBackgroundColor: UIColor { .init("ProductPadgeBackBackgroun
 var _productPadgeFrontBackgroundColor: UIColor { .init("ProductPadgeFrontBackground") }
 var _segmentedTintColor: UIColor { .init("SegmentedTint") }
 var _sliderRangeColor: UIColor { .init("SliderRange") }
+
+// MARK: - Keys
+
+var _googleClientID: String = "1019784322925-s2bglcu6nolr5rhpjmsflg757mua7l2f.apps.googleusercontent.com"

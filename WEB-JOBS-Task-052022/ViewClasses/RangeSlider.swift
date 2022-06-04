@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class RangeSlider: UIControl {
     
     // MARK: - Properties

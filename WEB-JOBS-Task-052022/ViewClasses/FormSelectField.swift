@@ -77,12 +77,12 @@ class FormSelectField: UIView {
 //        configuration.imagePadding = 15
 //
 //        button.configuration = configuration
-        button.contentEdgeInsets = UIEdgeInsets(
-            top: 0,
-            left: 0,
-            bottom: 0,
-            right: 50
-        )
+//        button.contentEdgeInsets = UIEdgeInsets(
+//            top: 0,
+//            left: 0,
+//            bottom: 0,
+//            right: 50
+//        )
         
         // Constraints Configuration
         button.translatesAutoresizingMaskIntoConstraints = false
