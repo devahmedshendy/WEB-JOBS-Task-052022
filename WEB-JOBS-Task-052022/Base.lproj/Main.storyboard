@@ -899,6 +899,9 @@
                                             <fontDescription key="titleFontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
                                             <directionalEdgeInsets key="contentInsets" top="15" leading="30" bottom="15" trailing="30"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="3Mr-Gy-qtI" kind="presentation" id="V5f-qW-ULh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -929,6 +932,9 @@
                         <barButtonItem key="leftBarButtonItem" id="494-w0-S9f">
                             <imageReference key="image" image="xmark" catalog="system" symbolScale="large"/>
                             <color key="tintColor" red="0.13333333333333333" green="0.70196078431372544" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="cancelFilter:" destination="ZZx-Lw-1KL" id="L2h-jE-WT0"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Clear" id="jxb-Qk-M0q">
                             <color key="tintColor" red="0.65490196078431373" green="0.65490196078431373" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -942,6 +948,57 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VyC-XM-fvD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7605.7971014492759" y="116.57608695652175"/>
+        </scene>
+        <!--Filter ModalVC-->
+        <scene sceneID="Sic-Bi-ZZA">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="3Mr-Gy-qtI" customClass="FilterModalVC" customModule="WEB_JOBS_Task_052022" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cgq-xe-kJN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qac-I7-UZf">
+                                <rect key="frame" x="106.00000000000001" y="267" width="202.33333333333337" height="202.33333333333337"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" verticalCompressionResistancePriority="751" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="JhD-uK-aYs">
+                                        <rect key="frame" x="82.666666666666657" y="32" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Searching properties in selected location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOo-Re-lAC">
+                                        <rect key="frame" x="30.333333333333343" y="89" width="141.33333333333334" height="81.333333333333314"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="JhD-uK-aYs" firstAttribute="centerX" secondItem="qac-I7-UZf" secondAttribute="centerX" id="FJI-wh-nRi"/>
+                                    <constraint firstItem="JhD-uK-aYs" firstAttribute="top" secondItem="qac-I7-UZf" secondAttribute="top" constant="32" id="Zqe-4g-3xT"/>
+                                    <constraint firstItem="sOo-Re-lAC" firstAttribute="centerX" secondItem="qac-I7-UZf" secondAttribute="centerX" id="d0D-Tn-3v1"/>
+                                    <constraint firstItem="sOo-Re-lAC" firstAttribute="width" secondItem="qac-I7-UZf" secondAttribute="width" multiplier="0.7" id="eTj-Hr-aIS"/>
+                                    <constraint firstAttribute="width" secondItem="qac-I7-UZf" secondAttribute="height" multiplier="1:1" id="jHT-Un-QHJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="sOo-Re-lAC" secondAttribute="bottom" constant="32" id="lkP-mK-p9p"/>
+                                    <constraint firstItem="sOo-Re-lAC" firstAttribute="top" secondItem="JhD-uK-aYs" secondAttribute="bottom" constant="20" id="t3j-Tz-1BK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5xL-wH-puH"/>
+                        <color key="backgroundColor" name="ModalOverlay"/>
+                        <constraints>
+                            <constraint firstItem="qac-I7-UZf" firstAttribute="centerY" secondItem="5xL-wH-puH" secondAttribute="centerY" id="1ye-fK-vji"/>
+                            <constraint firstItem="qac-I7-UZf" firstAttribute="width" secondItem="Cgq-xe-kJN" secondAttribute="width" multiplier="0.4" priority="750" id="Xud-6U-sgG"/>
+                            <constraint firstItem="qac-I7-UZf" firstAttribute="centerX" secondItem="5xL-wH-puH" secondAttribute="centerX" id="ozC-u2-RXA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hdy-CF-ewS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7606" y="863"/>
         </scene>
         <!--Menu-->
         <scene sceneID="hhG-Bv-jOY">
@@ -1265,6 +1322,9 @@
         </namedColor>
         <namedColor name="FormButton">
             <color red="0.78431372549019607" green="0.59607843137254901" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ModalOverlay">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.22" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ProductActualPrice">
             <color red="0.87450980392156863" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

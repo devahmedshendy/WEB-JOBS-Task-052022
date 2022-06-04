@@ -22,6 +22,12 @@ class FilterVC: BaseVC {
         
     }
     
+    // MARK: - Actions
+    
+    @IBAction func cancelFilter(_ sender: UIBarButtonItem) {
+        dismiss(animated: true)
+    }
+    
     @IBAction func onPriceRangeChanged(_ sender: RangeSlider) {
         let lowPrice = sender.lowValue
         let highPrice = sender.highValue
