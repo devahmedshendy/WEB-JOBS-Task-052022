@@ -42,6 +42,12 @@
 		64476B2C284905D100E90755 /* ProductsSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64476B2A284905D100E90755 /* ProductsSectionView.xib */; };
 		64476B2E284948E800E90755 /* AddProductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B2D284948E800E90755 /* AddProductButton.swift */; };
 		64476B302849501700E90755 /* ProductDiscountPadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B2F2849501700E90755 /* ProductDiscountPadge.swift */; };
+		64476B3228498DA800E90755 /* ShowResultsButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B3128498DA800E90755 /* ShowResultsButtonContainer.swift */; };
+		64476B352849951500E90755 /* PriceRangeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B332849951000E90755 /* PriceRangeSegmentedControl.swift */; };
+		64476B362849951500E90755 /* SegmentedControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B342849951300E90755 /* SegmentedControlButton.swift */; };
+		64476B5C284ADD5700E90755 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B5B284ADD5400E90755 /* RangeSlider.swift */; };
+		64476B5E284AE0D800E90755 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B5D284AE0D800E90755 /* FilterVC.swift */; };
+		64476B60284AE35800E90755 /* SortByFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B5F284AE35800E90755 /* SortByFilterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +88,12 @@
 		64476B2A284905D100E90755 /* ProductsSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsSectionView.xib; sourceTree = "<group>"; };
 		64476B2D284948E800E90755 /* AddProductButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductButton.swift; sourceTree = "<group>"; };
 		64476B2F2849501700E90755 /* ProductDiscountPadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDiscountPadge.swift; sourceTree = "<group>"; };
+		64476B3128498DA800E90755 /* ShowResultsButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResultsButtonContainer.swift; sourceTree = "<group>"; };
+		64476B332849951000E90755 /* PriceRangeSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceRangeSegmentedControl.swift; sourceTree = "<group>"; };
+		64476B342849951300E90755 /* SegmentedControlButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlButton.swift; sourceTree = "<group>"; };
+		64476B5B284ADD5400E90755 /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		64476B5D284AE0D800E90755 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
+		64476B5F284AE35800E90755 /* SortByFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortByFilterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +151,7 @@
 				64476B192848CD6200E90755 /* TabBarController.swift */,
 				64476AEA28465BFA00E90755 /* RegisterVC.swift */,
 				64476B1B2848F7DF00E90755 /* HomeVC.swift */,
+				64476B5D284AE0D800E90755 /* FilterVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,7 +171,12 @@
 				64476B132847F22600E90755 /* DialCodeSelectField.swift */,
 				64476B152847F2ED00E90755 /* NationalNumberField.swift */,
 				64476B2D284948E800E90755 /* AddProductButton.swift */,
+				64476B5F284AE35800E90755 /* SortByFilterButton.swift */,
 				64476B2F2849501700E90755 /* ProductDiscountPadge.swift */,
+				64476B3128498DA800E90755 /* ShowResultsButtonContainer.swift */,
+				64476B332849951000E90755 /* PriceRangeSegmentedControl.swift */,
+				64476B342849951300E90755 /* SegmentedControlButton.swift */,
+				64476B5B284ADD5400E90755 /* RangeSlider.swift */,
 			);
 			path = ViewClasses;
 			sourceTree = "<group>";
@@ -267,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64476ADB28465A6C00E90755 /* ViewController.swift in Sources */,
+				64476B352849951500E90755 /* PriceRangeSegmentedControl.swift in Sources */,
 				64476B042846792700E90755 /* UIImage+Extension.swift in Sources */,
 				64476B0A28467A9900E90755 /* FormFieldTextPaddingMode.swift in Sources */,
 				64476B102847EF8E00E90755 /* FormMobileField.swift in Sources */,
@@ -277,10 +296,13 @@
 				64476AFA2846788600E90755 /* Array+Extension.swift in Sources */,
 				64476AF12846777700E90755 /* FormTextField.swift in Sources */,
 				64476B0728467A3E00E90755 /* Constants.swift in Sources */,
+				64476B5E284AE0D800E90755 /* FilterVC.swift in Sources */,
 				64476B282849038300E90755 /* ProductSectionDto.swift in Sources */,
 				64476B1A2848CD6200E90755 /* TabBarController.swift in Sources */,
+				64476B60284AE35800E90755 /* SortByFilterButton.swift in Sources */,
 				64476B262849017900E90755 /* ProductDto.swift in Sources */,
 				64476B0C2846DBF100E90755 /* FormPasswordField.swift in Sources */,
+				64476B362849951500E90755 /* SegmentedControlButton.swift in Sources */,
 				64476AEB28465BFA00E90755 /* RegisterVC.swift in Sources */,
 				64476AD728465A6C00E90755 /* AppDelegate.swift in Sources */,
 				64476B1828481EF700E90755 /* RegisterFormStackView.swift in Sources */,
@@ -290,8 +312,10 @@
 				64476B0E2847BE5D00E90755 /* BaseFormVC.swift in Sources */,
 				64476AED28465C2200E90755 /* BaseVC.swift in Sources */,
 				64476B162847F2ED00E90755 /* NationalNumberField.swift in Sources */,
+				64476B5C284ADD5700E90755 /* RangeSlider.swift in Sources */,
 				64476AF7284677EF00E90755 /* FormFieldUnderneathView.swift in Sources */,
 				64476B232848FBD800E90755 /* TwoRowProductCell.swift in Sources */,
+				64476B3228498DA800E90755 /* ShowResultsButtonContainer.swift in Sources */,
 				64476B1C2848F7E000E90755 /* HomeVC.swift in Sources */,
 				64476B142847F22600E90755 /* DialCodeSelectField.swift in Sources */,
 				64476B032846792700E90755 /* UIFont+Extension.swift in Sources */,

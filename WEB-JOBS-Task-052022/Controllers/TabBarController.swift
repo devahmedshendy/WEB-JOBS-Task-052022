@@ -27,6 +27,8 @@ class TabBarController: UITabBarController {
         return layer
     }()
     
+    // MARK: - LifeCycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -19,3 +19,5 @@ var _addProductBtnBorderColor: UIColor { .init("AddProductBtnBorder") }
 var _addProductBtnTitleColor: UIColor { .init("AddProductBtnTitle") }
 var _productPadgeBackBackgroundColor: UIColor { .init("ProductPadgeBackBackground") }
 var _productPadgeFrontBackgroundColor: UIColor { .init("ProductPadgeFrontBackground") }
+var _segmentedTintColor: UIColor { .init("SegmentedTint") }
+var _sliderRangeColor: UIColor { .init("SliderRange") }
