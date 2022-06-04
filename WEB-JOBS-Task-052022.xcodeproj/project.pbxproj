@@ -49,6 +49,7 @@
 		64476B5E284AE0D800E90755 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B5D284AE0D800E90755 /* FilterVC.swift */; };
 		64476B60284AE35800E90755 /* SortByFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B5F284AE35800E90755 /* SortByFilterButton.swift */; };
 		64476B62284AED1500E90755 /* FilterModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B61284AED1500E90755 /* FilterModalVC.swift */; };
+		64476B84284B335A00E90755 /* WEBJOBSSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64476B83284B335A00E90755 /* WEBJOBSSpinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		64476B5D284AE0D800E90755 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 		64476B5F284AE35800E90755 /* SortByFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortByFilterButton.swift; sourceTree = "<group>"; };
 		64476B61284AED1500E90755 /* FilterModalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModalVC.swift; sourceTree = "<group>"; };
+		64476B83284B335A00E90755 /* WEBJOBSSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEBJOBSSpinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				64476B332849951000E90755 /* PriceRangeSegmentedControl.swift */,
 				64476B342849951300E90755 /* SegmentedControlButton.swift */,
 				64476B5B284ADD5400E90755 /* RangeSlider.swift */,
+				64476B83284B335A00E90755 /* WEBJOBSSpinner.swift */,
 			);
 			path = ViewClasses;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				64476B3228498DA800E90755 /* ShowResultsButtonContainer.swift in Sources */,
 				64476B62284AED1500E90755 /* FilterModalVC.swift in Sources */,
 				64476B1C2848F7E000E90755 /* HomeVC.swift in Sources */,
+				64476B84284B335A00E90755 /* WEBJOBSSpinner.swift in Sources */,
 				64476B142847F22600E90755 /* DialCodeSelectField.swift in Sources */,
 				64476B032846792700E90755 /* UIFont+Extension.swift in Sources */,
 				64476AF6284677EF00E90755 /* FormFieldPlaceholderView.swift in Sources */,

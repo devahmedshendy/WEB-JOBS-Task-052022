@@ -958,13 +958,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qac-I7-UZf">
-                                <rect key="frame" x="106.00000000000001" y="267" width="202.33333333333337" height="202.33333333333337"/>
+                                <rect key="frame" x="93.333333333333329" y="254.33333333333331" width="227.33333333333337" height="227.33333333333331"/>
                                 <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" verticalCompressionResistancePriority="751" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="JhD-uK-aYs">
-                                        <rect key="frame" x="82.666666666666657" y="32" width="37" height="37"/>
-                                    </activityIndicatorView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aye-rU-5Me" customClass="WEBJOBSSpinner" customModule="WEB_JOBS_Task_052022" customModuleProvider="target">
+                                        <rect key="frame" x="82.666666666666671" y="31.999999999999972" width="62.000000000000014" height="62"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Aye-rU-5Me" secondAttribute="height" multiplier="1:1" id="fqV-4I-r7j"/>
+                                        </constraints>
+                                    </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Searching properties in selected location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOo-Re-lAC">
-                                        <rect key="frame" x="30.333333333333343" y="89" width="141.33333333333334" height="81.333333333333314"/>
+                                        <rect key="frame" x="45.333333333333329" y="113.99999999999997" width="136.66666666666669" height="81.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -972,13 +976,13 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="JhD-uK-aYs" firstAttribute="centerX" secondItem="qac-I7-UZf" secondAttribute="centerX" id="FJI-wh-nRi"/>
-                                    <constraint firstItem="JhD-uK-aYs" firstAttribute="top" secondItem="qac-I7-UZf" secondAttribute="top" constant="32" id="Zqe-4g-3xT"/>
+                                    <constraint firstItem="sOo-Re-lAC" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Aye-rU-5Me" secondAttribute="bottom" constant="20" id="50X-a8-0eh"/>
+                                    <constraint firstItem="Aye-rU-5Me" firstAttribute="top" secondItem="qac-I7-UZf" secondAttribute="top" constant="32" id="Gk9-aD-jlG"/>
                                     <constraint firstItem="sOo-Re-lAC" firstAttribute="centerX" secondItem="qac-I7-UZf" secondAttribute="centerX" id="d0D-Tn-3v1"/>
-                                    <constraint firstItem="sOo-Re-lAC" firstAttribute="width" secondItem="qac-I7-UZf" secondAttribute="width" multiplier="0.7" id="eTj-Hr-aIS"/>
+                                    <constraint firstItem="sOo-Re-lAC" firstAttribute="width" secondItem="qac-I7-UZf" secondAttribute="width" multiplier="0.6" id="eTj-Hr-aIS"/>
                                     <constraint firstAttribute="width" secondItem="qac-I7-UZf" secondAttribute="height" multiplier="1:1" id="jHT-Un-QHJ"/>
                                     <constraint firstAttribute="bottom" secondItem="sOo-Re-lAC" secondAttribute="bottom" constant="32" id="lkP-mK-p9p"/>
-                                    <constraint firstItem="sOo-Re-lAC" firstAttribute="top" secondItem="JhD-uK-aYs" secondAttribute="bottom" constant="20" id="t3j-Tz-1BK"/>
+                                    <constraint firstItem="Aye-rU-5Me" firstAttribute="centerX" secondItem="qac-I7-UZf" secondAttribute="centerX" id="yCA-cV-HUk"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -992,6 +996,7 @@
                         <constraints>
                             <constraint firstItem="qac-I7-UZf" firstAttribute="centerY" secondItem="5xL-wH-puH" secondAttribute="centerY" id="1ye-fK-vji"/>
                             <constraint firstItem="qac-I7-UZf" firstAttribute="width" secondItem="Cgq-xe-kJN" secondAttribute="width" multiplier="0.4" priority="750" id="Xud-6U-sgG"/>
+                            <constraint firstItem="Aye-rU-5Me" firstAttribute="width" secondItem="Cgq-xe-kJN" secondAttribute="width" multiplier="0.15" id="lIU-32-sxf"/>
                             <constraint firstItem="qac-I7-UZf" firstAttribute="centerX" secondItem="5xL-wH-puH" secondAttribute="centerX" id="ozC-u2-RXA"/>
                         </constraints>
                     </view>
@@ -1324,7 +1329,7 @@
             <color red="0.78431372549019607" green="0.59607843137254901" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ModalOverlay">
-            <color red="0.0" green="0.0" blue="0.0" alpha="0.22" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.32000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ProductActualPrice">
             <color red="0.87450980392156863" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
